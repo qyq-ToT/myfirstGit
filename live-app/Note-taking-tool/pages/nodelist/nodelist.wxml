@@ -1,0 +1,16 @@
+<view class="sfbox" bindtouchstart="touchStart" 
+                    bindtouchmove="touchMove" 
+                    bindtouchend="touchEnd">
+  <view class="left_row" style="width:{{left_width}}%;">
+    <view class="content_row">
+      <left></left>
+    </view>
+      <view bindtap="onclick"  class="undefind_row"></view>
+    </view>
+  <view class="right_row" style="width:{{right_width}}%;">
+    <right></right>
+  </view>
+</view>
+<view bindtap="onclick" class="onclick">
+  <image src="{{imgSrc}}" mode="scaleToFill" style="width:50rpx;height:50rpx;"/>
+</view>

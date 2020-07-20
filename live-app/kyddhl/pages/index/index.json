@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "fl1":"../../components/fl1/fl1",
+    "fl2":"../../components/fl2/fl2",
+    "fl3":"../../components/fl3/fl3",
+    "SearchInput" :"../../components/SearchInput/SearchInput"
+  }
+}

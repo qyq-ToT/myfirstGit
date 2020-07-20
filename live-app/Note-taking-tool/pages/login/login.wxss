@@ -1,0 +1,89 @@
+/* pages/login/login.wxss */
+page {
+  background-color: #FFFFFF;
+}
+.big_row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  color: #B8B8B8;
+}
+.big_row .login_row {
+  margin-top: 100rpx;
+  border-radius: 20rpx;
+  width: 550rpx;
+  height: 750rpx;
+  border: 5rpx solid #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.big_row .login_row .img_row {
+  margin-top: 70rpx;
+  width: 150rpx;
+  height: 150rpx;
+  background-color: blue;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.big_row .login_row .userInput {
+  margin-top: 70rpx;
+  height: 80rpx;
+  width: 400rpx;
+  border: 1rpx solid #EEEEEE;
+  border-radius: 40rpx;
+}
+.big_row .login_row .userInput input {
+  padding-left: 40rpx;
+  width: 100%;
+  height: 100%;
+}
+.big_row .login_row .passwordInput {
+  margin-top: 40rpx;
+  height: 80rpx;
+  width: 400rpx;
+  border: 1rpx solid #EEEEEE;
+  border-radius: 40rpx;
+}
+.big_row .login_row .passwordInput input {
+  padding-left: 40rpx;
+  width: 100%;
+  height: 100%;
+}
+.big_row .login_row .findPassword {
+  height: 50rpx;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 30rpx;
+  font-weight: 100;
+}
+.big_row .login_row .submitBtn {
+  margin-top: 50rpx;
+  height: 80rpx;
+  width: 420rpx;
+  border-radius: 40rpx;
+}
+.big_row .login_row .submitBtn button {
+  width: 100%;
+  height: 100%;
+  border-radius: 40rpx;
+  color: #FFFFFF;
+  background-color: #333643;
+  font-weight: 200;
+}
+.big_row .nav {
+  position: fixed;
+  bottom: 60rpx;
+  display: flex;
+  justify-content: center;
+  font-size: 30rpx;
+  color: #B8B8B8;
+}
+.big_row .nav navigator {
+  width: 100%;
+}
+.theFalse {
+  color: red;
+}

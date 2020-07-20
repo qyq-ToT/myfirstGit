@@ -1,0 +1,37 @@
+.foot_row {
+  display: flex;
+  width: 100%;
+  height: 1600rpx;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.foot_row .nav_row {
+  width: 42%;
+  height: 450rpx;
+  margin-top: 36rpx;
+}
+.foot_row .nav_row .nav-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+  font-size: 24rpx;
+}
+.foot_row .nav_row .nav-data .nav-data-text {
+  width: 50%;
+  height: 55rpx;
+}
+.foot_row .nav_row .nav-data .nav-data-text text {
+  color: #585858;
+}
+.foot_row .nav_row .nav-data .shouc {
+  position: relative;
+  width: 50%;
+}
+.foot_row .nav_row .nav-data .shouc image {
+  position: absolute;
+  right: 0;
+}
+.foot_row .nav_row .nav-data .nav-title {
+  font-size: 32rpx;
+  color: #101010;
+}

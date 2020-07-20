@@ -1,0 +1,42 @@
+
+.classify_list{
+  display: flex;
+  font-size: 15px;
+  width: 100%;
+  overflow-y: scroll;
+  white-space: nowrap;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.classify{
+  width: 100rpx;
+  margin: 20rpx;
+}
+.active{
+  color: red;
+  border-bottom: 5rpx solid currentColor;
+}
+#top{
+  width: 100%;
+  height: 1500rpx;
+  background-color: white;
+  margin-top: 10rpx;
+}
+#one{
+  width: 100%;
+  height: 150rpx;
+}
+.page-group-position{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 999;
+ }
+ ::-webkit-scrollbar{
+   width: 0;
+   height: 0;
+   color: transparent;
+ }
+

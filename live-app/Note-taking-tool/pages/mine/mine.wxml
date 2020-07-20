@@ -1,0 +1,19 @@
+<!-- 1124x750 -->
+<image style="width:100%;height:190px" src="https://pic24.photophoto.cn/20120702/0017030068381421_b.jpg" />
+<view class="mine_row">
+    <view class="head_row">
+        <image style="width:80px;height:80px;border-radius:15rpx;margin-left:40rpx;" src="https://ae01.alicdn.com/kf/Ha9936a7cdb8b4a4fb80499dde3b5c90cC.png" />
+        <text>Kika Kong</text>
+    </view>
+
+    <view class="body">
+        <view class="ttt">席卷在风中的那一道浅香,柔柔地蔓延在阳光中跳跃着的尘挨之中.是那酥脆的肥美的肉,,柔软的,多汁的,醇礌的汤水.咸香中弥漫着一丝清甜.极富弹性的面条在香气里穿梭,吸饱了那肉汤之后,散发出特别的面的美味.吃
+        上一口,滑过唇齿之间,盛开着倾城的绝对味道.这味道中还夹杂着香菜的新鲜,实在是极为好吃的享受.
+        </view>
+    </view>
+
+    <view class="bottom">
+        <view style=" background-color: #8BC34A;color: white;" bindtap="onclick" class="btn active">关注</view>
+        <view bindtap="onclick" class="btn">私信</view>
+    </view>
+</view>

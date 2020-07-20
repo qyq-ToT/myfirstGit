@@ -1,0 +1,16 @@
+page {
+  background-image: url("https://ae01.alicdn.com/kf/H746093683a4a496b85f2ed99e0e35506u.png");
+  background-size: cover;
+}
+.login {
+  position: fixed;
+  bottom: 250rpx;
+  left: 0;
+  right: 0;
+  border-radius: 40rpx;
+  background-color: #091630;
+  color: white;
+  font-weight: 100;
+  opacity: 0.8;
+}
+

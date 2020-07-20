@@ -1,0 +1,17 @@
+<!--pages/test/test.wxml-->
+<view class="test">
+  <view class="header">
+    <view style="width:40rpx;height:30rpx;position:absolute;top:30%;left:-60rpx;" bindtap="toLeft">《</view>
+    <view style="width:40rpx;height:30rpx;position:absolute;top:30%;right:-60rpx;" bindtap="toRight">》</view>
+    <swiper circular="true" current="{{currentIndex}}" duration="1000" bindchange="changeIndex" bindanimationfinish="changeFinish">
+      <swiper-item>
+          1<!-- <image src="/images/slide_img_1.png" mode="scaleToFill" class="slide-image" /> -->
+      </swiper-item>
+      <swiper-item>
+          3<!-- <image src="/images/slide_img_3.png" mode="scaleToFill" class="slide-image" /> -->
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="section"></view>
+  <view class="footer"></view>
+</view>

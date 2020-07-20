@@ -1,0 +1,49 @@
+<view>
+  <SearchInput></SearchInput>
+</view>
+ <view class='classify_list'>
+     <view bindtap="navSwitch" data-index="0" class="{{navState==0?'active':''}} classify">分类1</view>
+     <view bindtap="navSwitch" data-index="1" class="{{navState==1?'active':''}} classify">分类2</view>
+     <view bindtap="navSwitch" data-index="2" class="{{navState==2?'active':''}} classify">分类3</view>
+     <view bindtap="navSwitch" data-index="3" class="{{navState==3?'active':''}} classify">分类4</view>
+     <view bindtap="navSwitch" data-index="4" class="{{navState==4?'active':''}} classify">分类5</view>
+     <view bindtap="navSwitch" data-index="5" class="{{navState==5?'active':''}} classify">分类6</view>
+     <view bindtap="navSwitch" data-index="6" class="{{navState==6?'active':''}} classify">分类7</view>
+     <view bindtap="navSwitch" data-index="7" class="{{navState==7?'active':''}} classify">分类8</view>
+   </view>
+   <swiper bindchange="eventhandle" current="{{navState}}" circular="{{true}}">
+    <block>
+        <swiper-item>
+            <view class="style-roll"></view>
+            <text> 滑1</text>
+        </swiper-item>
+        <swiper-item>
+            <view class="style-roll"></view>
+            <text> 滑2</text>
+        </swiper-item>
+        <swiper-item>
+            <view class="style-roll"></view>
+            <text> 滑3</text>
+        </swiper-item>
+        <swiper-item>
+            <view class="style-roll"></view>
+            <text> 滑4</text>
+        </swiper-item>
+                <swiper-item>
+            <view class="style-roll"></view>
+            <text> 滑5</text>
+        </swiper-item>
+        <swiper-item>
+            <view class="style-roll"></view>
+            <text> 滑6</text>
+        </swiper-item>
+        <swiper-item>
+            <view class="style-roll"></view>
+            <text> 滑7</text>
+        </swiper-item>
+        <swiper-item>
+            <view class="style-roll"></view>
+            <text> 滑8</text>
+        </swiper-item>
+    </block>
+</swiper>

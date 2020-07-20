@@ -1,0 +1,2 @@
+<input bindblur="rg" data-index placeholder="用户名"/>
+<input bindblur="rg" data-index placeholder="密码"/>

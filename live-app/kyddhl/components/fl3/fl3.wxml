@@ -1,0 +1,93 @@
+<view class="fl3_row">
+    <view class="top_row">
+        <view class="icon_row">
+            <view class="icon">
+                <image class="img1" src="http://chuantu.xyz/t6/735/1590127954x989559068.png" mode="scaleToFill" /><text>排行榜</text>
+            </view>
+        </view>
+
+        <view class="icon_row">
+            <view class="icon">
+                <image class="img1" src="http://chuantu.xyz/t6/735/1590133154x989499252.png" mode="scaleToFill"/><text>每周必看</text>
+            </view>
+        </view>
+        
+        <view class="icon_row">
+            <view class="icon">
+                <image class="img1" src="http://chuantu.xyz/t6/735/1590133187x989559068.png" mode="scaleToFill" /><text>入站必刷</text>
+            </view>
+        </view>        
+    </view>
+
+    <view class="under_row">
+        <view class="video_row">
+
+            <view class="video-nav">
+                <navigator open-type="navigate" src="">
+                    <image mode="scaleToFill" src="http://chuantu.xyz/t6/735/1590135416x989499252.png" />
+                </navigator>
+            </view>
+
+            <view class="video-title">
+                <text>【川普】 没人比我更懂China</text>
+            </view>
+
+        </view>
+
+        <view class="video_row">
+            
+            <view class="video-nav">
+                <navigator open-type="navigate" src="">
+                    <image mode="scaleToFill" src="http://chuantu.xyz/t6/735/1590135416x989499252.png" />
+                </navigator>
+            </view>
+
+            <view class="video-title">
+                <text>【川普】 没人比我更懂China</text>
+            </view>
+
+        </view>
+
+        <view class="video_row">
+            
+            <view class="video-nav">
+                <navigator open-type="navigate" src="">
+                    <image mode="scaleToFill" src="http://chuantu.xyz/t6/735/1590135416x989499252.png" />
+                </navigator>
+            </view>
+
+            <view class="video-title">
+                <text>【川普】 没人比我更懂China</text>
+            </view>
+
+        </view>
+        
+        <view class="video_row">
+            
+            <view class="video-nav">
+                <navigator open-type="navigate" src="">
+                    <image mode="scaleToFill" src="http://chuantu.xyz/t6/735/1590135416x989499252.png" />
+                </navigator>
+            </view>
+
+            <view class="video-title">
+                <text>【川普】 没人比我更懂China</text>
+            </view>
+
+        </view>
+        
+        <view class="video_row">
+            
+            <view class="video-nav">
+                <navigator open-type="navigate" src="">
+                    <image mode="scaleToFill" src="http://chuantu.xyz/t6/735/1590135416x989499252.png" />
+                </navigator>
+            </view>
+
+            <view class="video-title">
+                <text>【川普】 没人比我更懂China</text>
+            </view>
+
+        </view>
+    </view>
+</view>

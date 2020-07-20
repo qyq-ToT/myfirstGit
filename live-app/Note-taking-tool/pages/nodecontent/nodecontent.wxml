@@ -1,0 +1,138 @@
+<view class="foot_row">
+    <view bindtap="navtoChange" class="nav_row">
+        <view class="nav-img">
+            <image src="https://ae01.alicdn.com/kf/H00bf1a8bbdde4ce1a6c08126c5eba2e5r.png" style="width:311rpx;height:280rpx;border-radius: 25rpx;"/>
+        </view>
+        <view class="nav-data">
+            <view class="nav-data-text">
+                <text>11月22日</text>
+            </view>
+            <view class="shouc">
+                <image bindtap="imgChange" style="width:40rpx;height:40rpx;" class="scicon" src="https://ae01.alicdn.com/kf/Hb5c38fb80fd749eba7c360b9c551a3dfn.png"/>
+            </view>
+            <view class="nav-title">
+                传统的法国羊角面包食谱
+            </view>
+        </view>
+    </view>
+
+    <view bindtap="navtoChange" class="nav_row">
+        <view class="nav-img">
+            <image src="https://ae01.alicdn.com/kf/H1b854b51fbc7482889379d04968a72f7m.png" style="width:311rpx;height:280rpx;border-radius: 25rpx;" />
+        </view>
+        <view class="nav-data">
+            <view class="nav-data-text">
+                <text>11月28日</text>
+            </view>
+            <view class="shouc">
+                <image bindtap="imgChange" style="width:40rpx;height:40rpx;" class="scicon" src="https://ae01.alicdn.com/kf/Hb5c38fb80fd749eba7c360b9c551a3dfn.png"/>
+            </view>
+            <view class="nav-title">
+                中国的餐桌仪式
+            </view>
+        </view>
+    </view>
+
+    <view bindtap="navtoChange" class="nav_row">
+        <view class="nav-img">
+            <image src="https://ae01.alicdn.com/kf/H58899a493188424e96e6273017c84950X.png" style="width:311rpx;height:280rpx;border-radius: 25rpx;" />
+        </view>
+        <view class="nav-data">
+            <view class="nav-data-text">
+                <text>11月28日</text>
+            </view>
+            <view class="shouc">
+                <image bindtap="imgChange" style="width:40rpx;height:40rpx;" class="scicon" src="https://ae01.alicdn.com/kf/Hb5c38fb80fd749eba7c360b9c551a3dfn.png"/>
+            </view>
+            <view class="nav-title">
+                摩洛哥的美食和食物
+            </view>
+        </view>
+    </view>
+
+    <view bindtap="navtoChange" class="nav_row">
+        <view class="nav-img">
+            <image src="https://ae01.alicdn.com/kf/H1dd3dd7bbe2840b38e2fa2d9988e3be9V.png" style="width:311rpx;height:280rpx;border-radius: 25rpx;" />
+        </view>
+        <view class="nav-data">
+            <view class="nav-data-text">
+                <text>11月28日</text>
+            </view>
+            <view class="shouc">
+                <image bindtap="imgChange" style="width:40rpx;height:40rpx;" class="scicon" src="https://ae01.alicdn.com/kf/Hb5c38fb80fd749eba7c360b9c551a3dfn.png"/>
+            </view>
+            <view class="nav-title">
+                乔妈妈世界著名的意大利面
+            </view>
+        </view>
+    </view>
+
+    <view bindtap="navtoChange" class="nav_row">
+        <view class="nav-img">
+            <image mode="scaleToFill" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=396278723,1642390778&fm=26&gp=0.jpg" style="width:311rpx;height:280rpx;border-radius: 25rpx;" />
+        </view>
+        <view class="nav-data">
+            <view class="nav-data-text">
+                <text>11月28日</text>
+            </view>
+            <view class="shouc">
+                <image bindtap="imgChange" style="width:40rpx;height:40rpx;" class="scicon" src="https://ae01.alicdn.com/kf/Hb5c38fb80fd749eba7c360b9c551a3dfn.png"/>
+            </view>
+            <view class="nav-title">
+                康师傅红烧牛肉面
+            </view>
+        </view>
+    </view>
+
+    <view bindtap="navtoChange" class="nav_row">
+        <view class="nav-img">
+            <image mode="scaleToFill" src="http://img2.imgtn.bdimg.com/it/u=1084362352,700456534&fm=26&gp=0.jpg" style="width:311rpx;height:280rpx;border-radius: 25rpx;" />
+        </view>
+        <view class="nav-data">
+            <view class="nav-data-text">
+                <text>11月28日</text>
+            </view>
+            <view class="shouc">
+                <image bindtap="imgChange" style="width:40rpx;height:40rpx;" class="scicon" src="https://ae01.alicdn.com/kf/Hb5c38fb80fd749eba7c360b9c551a3dfn.png"/>
+            </view>
+            <view class="nav-title">
+                康师傅老坛酸菜牛肉面
+            </view>
+        </view>
+    </view>
+
+    <view bindtap="navtoChange" class="nav_row">
+        <view class="nav-img">
+            <image mode="scaleToFill" src="http://img1.imgtn.bdimg.com/it/u=251866343,816735530&fm=26&gp=0.jpg" style="width:311rpx;height:280rpx;border-radius: 25rpx;" />
+        </view>
+        <view class="nav-data">
+            <view class="nav-data-text">
+                <text>11月28日</text>
+            </view>
+            <view class="shouc">
+                <image bindtap="imgChange" style="width:40rpx;height:40rpx;" class="scicon" src="https://ae01.alicdn.com/kf/Hb5c38fb80fd749eba7c360b9c551a3dfn.png"/>
+            </view>
+            <view class="nav-title">
+                康师傅香辣牛肉面
+            </view>
+        </view>
+    </view>
+
+    <view bindtap="navtoChange" class="nav_row">
+        <view class="nav-img">
+            <image src="http://img4.imgtn.bdimg.com/it/u=3232941651,931462093&fm=26&gp=0.jpg" style="width:311rpx;height:280rpx;border-radius: 25rpx;" />
+        </view>
+        <view class="nav-data">
+            <view class="nav-data-text">
+                <text>11月28日</text>
+            </view>
+            <view class="shouc">
+                <image mode="scaleToFill" bindtap="imgChange" style="width:40rpx;height:40rpx;" class="scicon" src="https://ae01.alicdn.com/kf/Hb5c38fb80fd749eba7c360b9c551a3dfn.png"/>
+            </view>
+            <view class="nav-title">
+                各种康师傅
+            </view>
+        </view>
+    </view>
+</view>
+

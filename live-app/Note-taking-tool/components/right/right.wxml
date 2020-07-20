@@ -1,0 +1,61 @@
+<!--components/right/right.wxml-->
+    <scroll-view scroll-y="{{true}}" bindscroll="scroll" >
+        <view class="right_row">
+            <view class="title_row {{scrollTop>10?'page-group-position':''}}">
+                <view class="title">
+                    笔记分类
+                </view>
+                <view class="title-icon">
+                    <image mode="scaleToFill" src="https://ae01.alicdn.com/kf/Hcc0fd6540a70445193f2bdf86fc41123k.png" style="width:40rpx;height:40rpx"/>
+                </view>
+            </view>
+
+            <view class="content_row">
+                <view class="imcon_row">
+                    <view class="imcon-icon">
+                        <image bindtap="navtoContnet" mode="aspectFill" src="https://ae01.alicdn.com/kf/H206dc52a296d4824a1fa42529202520eL.png" class="imcon-img" />
+                    </view>
+                    <view class="imcon_title">
+                        <text>美食</text>
+                    </view>
+                </view>
+
+                <view class="imcon_row">
+                    <view class="imcon-icon">
+                        <image bindtap="navtoContnet" mode="aspectFill" src="https://ae01.alicdn.com/kf/Hd32516c998b244f1b6920bb87a1faadfO.png" class="imcon-img" />
+                    </view>
+                    <view class="imcon_title">
+                        <text>旅行</text>
+                    </view>
+                </view>
+
+                <view class="imcon_row">
+                    <view class="imcon-icon">
+                        <image bindtap="navtoContnet" mode="aspectFill" src="https://ae01.alicdn.com/kf/H3bc8ae479d974ea5b65d6f09774e7eabF.png" class="imcon-img" />
+                    </view>
+                    <view class="imcon_title">
+                        <text>汽车</text>
+                    </view>
+                </view>
+
+                <view class="imcon_row">
+                    <view class="imcon-icon">
+                        <image bindtap="navtoContnet" mode="aspectFill" src="https://ae01.alicdn.com/kf/Hf4199951ded74316a1195aaaf8d20b54a.png" class="imcon-img" />
+                    </view>
+                    <view class="imcon_title">
+                        <text>时尚</text>
+                    </view>
+                </view>
+
+                <view class="imcon_row">
+                    <view class="imcon-icon">
+                        <image bindtap="navtoContnet" mode="aspectFill" src="https://ae01.alicdn.com/kf/H8131582053c34473a9fe4aa3e93a5fa0y.png" class="imcon-img" />
+                    </view>
+                    <view class="imcon_title">
+                        <text>科技</text>
+                    </view>
+                </view>                
+            </view>
+
+        </view>
+    </scroll-view>    

@@ -1,0 +1,6 @@
+<input password="{{true}}" bindblur="EmaiGet" placeholder="邮箱"  />
+<view wx:if="{{action}}" ></view>
+<view wx:else class="theFalse">密码格式不正确</view>
+<input  bindblur="passwordGet" placeholder="密码" />
+<view wx:if="{{actiontwo}}" ></view>
+<view wx:else class="theFalse">不支持该邮箱格式</view>

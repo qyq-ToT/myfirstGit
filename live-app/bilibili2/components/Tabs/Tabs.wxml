@@ -1,0 +1,19 @@
+<!--components/Tabs/Tabs.wxml-->
+<view class="tabs">
+  <scroll-view scroll-x="true" class="nav" scroll-left="{{navScrollLeft}}" scroll-with-animation="{{true}}">
+      <view class="tabs_title">
+      <view
+      wx:for="{{tabs}}"
+      wx:key="id"
+      class="title_item {{item.isActive?'active' :''}}"
+      bindtap="hanldeItemTap"
+      data-index="{{index}}"
+      >
+      {{item.name}}
+      </view>
+    </view>
+    <view class="tabs_content">
+      <slot></slot>
+    </view>
+  </scroll-view>
+</view>

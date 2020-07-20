@@ -1,0 +1,53 @@
+.fl3_row {
+  width: 100%;
+  height: 2000rpx;
+  display: flex;
+  flex-direction: column;
+}
+.fl3_row .top_row {
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.fl3_row .top_row .icon_row {
+  width: 160rpx;
+  height: 180rpx;
+}
+.fl3_row .top_row .icon_row .icon {
+  height: 70%;
+}
+.fl3_row .top_row .icon_row .icon text {
+  text-align: end;
+}
+.fl3_row .under_row {
+  width: 100%;
+  height: 2000rpx;
+  border-radius: 15rpx;
+  margin-top: 25rpx;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.fl3_row .under_row .video_row {
+  height: 250rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #f4f4f4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.fl3_row .under_row .video_row .video-nav {
+  height: 250rpx;
+  width: 50%;
+}
+.fl3_row .under_row .video_row .video-nav navigator {
+  width: 100%;
+  height: 100%;
+}
+.fl3_row .under_row .video_row .video-title {
+  width: 47%;
+}

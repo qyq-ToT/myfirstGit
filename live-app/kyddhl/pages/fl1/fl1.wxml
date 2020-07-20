@@ -1,0 +1,176 @@
+ <!-- 轮播图 -->
+<swiper indicator-dots indicator-active-color="#2222DD" autoplay interval="2000"  circular display-multiple-items="1" duration="2000">
+    <swiper-item><image mode="widthFix" src="https://img.alicdn.com/tps/i4/TB1.i6RE.H1gK0jSZSySuttlpXa.jpg_q90_.webp"/></swiper-item>
+    <swiper-item><image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB183NQapLM8KJjSZFBSutJHVXa.jpg"/></swiper-item>
+    <swiper-item><image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB1XotJXQfb_uJkSnhJSuvdDVXa.jpg"/></swiper-item>
+</swiper>
+<view class="Thebig">
+    <!-- 10个小块块 -->
+    <view class="kk_row">
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image class="img1" />
+            </view>
+            <view class="kk-title">
+                <text></text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image class="img1" />
+            </view>
+            <view class="kk-title">
+                <text></text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image class="img1" />
+            </view>
+            <view class="kk-title">
+                <text></text>
+            </view>
+        </view>
+        
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image class="img1" />
+            </view>
+            <view class="kk-title">
+                <text></text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image class="img1" />
+            </view>
+            <view class="kk-title">
+                <text></text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image class="img1" />
+            </view>
+            <view class="kk-title">
+                <text></text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image class="img1" />
+            </view>
+            <view class="kk-title">
+                <text></text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image class="img1" />
+            </view>
+            <view class="kk-title">
+                <text></text>
+            </view>
+        </view>
+        
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image class="img1" />
+            </view>
+            <view class="kk-title">
+                <text></text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image class="img1" />
+            </view>
+            <view class="kk-title">
+                <text></text>
+            </view>
+        </view>        
+
+    </view>
+
+    <!-- 直播推荐头 -->
+    <view class="live_top_row">
+        <view class="left">推荐直播</view>
+        <view class="right">换一换</view>
+    </view>
+
+    <!-- 直播内容容器 -->
+    <view class="live_content_row">
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image class="img2" src="" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力1</text>
+            </view>
+        </view>
+
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image class="img2" src="" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力2</text>
+            </view>
+        </view>
+          
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image class="img2" src="" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力3</text>
+            </view>
+        </view>
+
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image class="img2" src="" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力4</text>
+            </view>
+        </view>
+
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image class="img2" src="" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力5</text>
+            </view>
+        </view>
+
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image class="img2" src="" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力6</text>
+            </view>
+        </view>
+    </view>
+</view>

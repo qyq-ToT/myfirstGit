@@ -1,0 +1,58 @@
+    <!-- <view style="height:100%;position:fixed;width:100%"> -->
+<view style="height:100%;position:fixed;width:100%">
+    <scroll-view scroll-y="false" bindscroll="scroll" style="height:100%">
+        <view class="page-bottom-content">
+            <text>{{text}}</text>
+        </view>
+        <SearchInput></SearchInput>
+        <view class="classify_list {{scrollTop>120?'page-group-position':''}}">
+            <view bindtap="navSwitch" data-index="0" class="{{navState==0?'active':''}} classify">直播</view>
+            <view bindtap="navSwitch" data-index="1" class="{{navState==1?'active':''}} classify">推荐</view>
+            <view bindtap="navSwitch" data-index="2" class="{{navState==2?'active':''}} classify">热门</view>
+            <view bindtap="navSwitch" data-index="3" class="{{navState==3?'active':''}} classify">追番</view>
+            <view bindtap="navSwitch" data-index="4" class="{{navState==4?'active':''}} classify">影视</view>
+            <view bindtap="navSwitch" data-index="5" class="{{navState==5?'active':''}} classify">学习区</view>
+            <view bindtap="navSwitch" data-index="6" class="{{navState==6?'active':''}} classify">抗击肺炎</view>
+            <view bindtap="navSwitch" data-index="7" class="{{navState==7?'active':''}} classify">新时代</view>
+        </view>
+        <swiper id="top" bindchange="eventhandle" current="{{navState}}">
+            <block>
+                <swiper-item>
+                    <fl1></fl1>
+                </swiper-item>
+                <swiper-item>
+                    <fl2></fl2>
+                </swiper-item>
+
+                <swiper-item>
+                    <fl3></fl3>
+                </swiper-item>
+
+                <swiper-item>
+                    <view class="style-roll"></view>
+                    <text></text>
+                </swiper-item>
+
+                <swiper-item>
+                    <view class="style-roll"></view>
+                    <text> 滑5</text>
+                </swiper-item>
+
+                <swiper-item>
+                    <view class="style-roll"></view>
+                    <text> 滑6</text>
+                </swiper-item>
+
+                <swiper-item>
+                    <view class="style-roll"></view>
+                    <text> 滑7</text>
+                </swiper-item>
+
+                <swiper-item>
+                    <view class="style-roll"></view>
+                    <text> 滑8</text>
+                </swiper-item>
+            </block>
+        </swiper>
+    </scroll-view>
+</view> 

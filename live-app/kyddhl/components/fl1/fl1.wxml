@@ -1,0 +1,178 @@
+ <!-- 轮播图 -->
+<swiper indicator-dots indicator-active-color="#ffffff" autoplay interval="1000"  circular display-multiple-items="1" duration="1000">
+    <swiper-item>
+        <image mode="scaleToFill" src="https://i0.hdslb.com/bfs/sycp/creative_img/202005/6e11a5cf6d8a5364ca085d8c84fee987.jpg@880w_388h_1c_95q"/>
+    </swiper-item>
+    <swiper-item><image mode="scaleToFill" src="https://i0.hdslb.com/bfs/archive/772e2a5c2bf4ee1bd370048e99340989608eb16f.jpg@880w_388h_1c_95q"/></swiper-item>
+    <swiper-item><image mode="scaleToFill" src="https://i0.hdslb.com/bfs/archive/c3d1ad16107323055ff138fb17de282adc8886d0.png@880w_388h_1c_95q"/></swiper-item>
+</swiper>
+<view class="Thebig">
+    <!-- 10个小块块 -->
+    <view class="kk_row">
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image src="http://chuantu.xyz/t6/734/1590047616x989499252.png" mode="scaleToFill" class="img1" />
+            </view>
+            <view class="kk-title">
+                <text>英雄联盟</text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image src="http://chuantu.xyz/t6/734/1590047439x989559068.png" mode="scaleToFill" class="img1" />
+            </view>
+            <view class="kk-title">
+                <text>逃离科夫塔</text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590047786x989559068.png" class="img1" />
+            </view>
+            <view class="kk-title">
+                <text>王者荣耀</text>
+            </view>
+        </view>
+        
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590047913x989499252.png" class="img1" />
+            </view>
+            <view class="kk-title">
+                <text>娱乐</text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590048067x989559068.png" class="img1" />
+            </view>
+            <view class="kk-title">
+                <text>单机</text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590048920x989559068.png" class="img1" />
+            </view>
+            <view class="kk-title">
+                <text>电台</text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590048998x989499252.png" class="img1" />
+            </view>
+            <view class="kk-title">
+                <text>我的世界</text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590049019x989559068.png" class="img1" />
+            </view>
+            <view class="kk-title">
+                <text>虚拟主播</text>
+            </view>
+        </view>
+        
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590049035x989499252.png" class="img1" />
+            </view>
+            <view class="kk-title">
+                <text>第五人格</text>
+            </view>
+        </view>
+
+        <view class="kk_row_nr">
+            <view class="kk-icon">
+                <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590049058x989499252.png" class="img1" />
+            </view>
+            <view class="kk-title">
+                <text>全部标签</text>
+            </view>
+        </view>        
+
+    </view>
+
+    <!-- 直播推荐头 -->
+    <view class="live_top_row">
+        <view class="left">推荐直播</view>
+        <view class="right">换一换</view>
+    </view>
+
+    <!-- 直播内容容器 -->
+    <view class="live_content_row">
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image mode="scaleToFill" class="img2" src="http://chuantu.xyz/t6/734/1590053262x989559068.png" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力1</text>
+            </view>
+        </view>
+
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image mode="scaleToFill" class="img2" src="http://chuantu.xyz/t6/734/1590053262x989559068.png" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力2</text>
+            </view>
+        </view>
+          
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image mode="scaleToFill" class="img2" src="http://chuantu.xyz/t6/734/1590053262x989559068.png" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力3</text>
+            </view>
+        </view>
+
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image mode="scaleToFill" class="img2" src="http://chuantu.xyz/t6/734/1590053262x989559068.png" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力4</text>
+            </view>
+        </view>
+
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image mode="scaleToFill" class="img2" src="http://chuantu.xyz/t6/734/1590053262x989559068.png" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力5</text>
+            </view>
+        </view>
+
+        <view class="live_box">
+            <view class="nav">
+                <navigator open-type="navigate" url="">
+                    <image mode="scaleToFill" class="img2" src="http://chuantu.xyz/t6/734/1590053262x989559068.png" />
+                </navigator>
+            </view>
+            <view class="live-text">
+                <text>快乐的无限火力6</text>
+            </view>
+        </view>
+    </view>
+</view>

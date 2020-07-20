@@ -1,0 +1,14 @@
+<view class="box">
+    <view class="login">
+        <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590050781x989499252.png" class="i1" />
+    </view>
+    <view class="Search">
+        <navigator class="nav">放大镜</navigator>
+    </view>
+    <view class="game">
+        <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590050797x989499252.png" class="i2" />
+    </view>
+    <view class="msg">
+        <image mode="scaleToFill" src="http://chuantu.xyz/t6/734/1590050816x989559068.png" class="i3" />
+    </view>
+</view>

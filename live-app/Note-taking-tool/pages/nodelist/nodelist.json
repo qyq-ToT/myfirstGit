@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "left":"../../components/left/left",
+    "right":"../../components/right/right"
+  }
+}

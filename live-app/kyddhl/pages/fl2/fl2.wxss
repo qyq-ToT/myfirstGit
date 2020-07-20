@@ -1,0 +1,39 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  height: 2000rpx;
+  background-color: yellowgreen;
+}
+.box .fl2 {
+  width: 50%;
+  height: 350rpx;
+  margin-top: 10rpx;
+  display: flex;
+}
+.box .fl2 .fl2_item {
+  flex: 1;
+  border: 1rpx solid red;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.box .fl2 .fl2_item .fl2_item-img {
+  flex: 4;
+}
+.box .fl2 .fl2_item .fl2_item-img .fl2-img {
+  height: 100rpx;
+  width: 100rpx;
+}
+.box .fl2 .fl2_item .fl2_item-name {
+  flex: 3;
+}
+.box .fl2 .fl2_item .fl2_item-name fl2-name {
+  height: 200rpx;
+  background-color: black;
+  text-align: center;
+}

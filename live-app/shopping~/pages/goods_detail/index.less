@@ -1,0 +1,112 @@
+page{
+    // 避免内容被底部栏遮挡，值要和底部栏高度保持一致
+    padding-bottom: 90rpx;
+}
+.detail_swiper{
+    swiper{
+        height: 65vw;
+        text-align: center;
+        image{
+            width: 60%;
+        }
+    }
+}
+.goods_price{
+    padding: 15rpx;
+    font-size: 32rpx;
+    font-weight: 600;
+    color : var(--themeColor);
+}
+.goods_name_row{
+    border-top: 5rpx solid #ddeedd;
+    border-bottom: 5rpx solid #ddeedd;
+    padding: 10rpx 0;
+    display: flex;
+    .goods_name{
+        flex: 5;
+        color: #000;
+        font-size: 30rpx;
+        padding: 0 10rpx;
+
+
+        // 防止文字太多盒子被撑开，添加样式让文字只显示两行，显示不下的用。。。。。
+        display: -webkit-inline-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .goods_collect{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-left: 1rpx solid #000;
+
+        .iconfont{}
+        .icon-shoucang{
+            color: orangered;
+        }
+        .collect_text{}
+    }
+}
+.goods_info{
+    .goods_info_title{
+        font-size: 32rpx;
+        color: var(--themeColor);
+        font-weight: 600;
+        padding: 20rpx;
+    }
+    .goods_info_content{}
+}
+.btm_tool{
+    border-top: 1rpx solid #ccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90rpx;
+    background: #fff;
+    display: flex;
+    .tool_item{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20rpx;
+        position: relative;
+        button{
+            position: absolute;
+            top: 0;
+            left: 0;
+            // 宽搞与父元素一致（100%）
+            width: 100%;
+            height: 100%;
+            //透明度
+            opacity: 0;
+        }
+    }
+    .btn_cart{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffa500;
+        color: #fff;
+        font-size: 30rpx;
+        font-weight: 600;
+    }
+    .btn_buy{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #eb4450;
+        color: #fff;
+        font-size: 30rpx;
+        font-weight: 600;
+    }
+}

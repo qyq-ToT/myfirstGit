@@ -1,0 +1,103 @@
+<view class="box">
+    <view class="fl2">
+        <navigator class="fl2_item">
+            <view class="fl2_item-img">
+                <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" mode="widthFix" class="fl2-img"></image>
+            </view>
+            <view class="fl2_item-name">
+                <text class="fl2-name">红红火火恍恍惚惚</text>
+            </view>
+        </navigator>
+    </view>
+
+    <view class="fl2">
+        <navigator class="fl2_item">
+            <view class="fl2_item-img">
+                <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" mode="widthFix" class="fl2-img"></image>
+            </view>
+            <view class="fl2_item-name">
+                <text class="fl2-name">红红火火恍恍惚惚</text>
+            </view>
+        </navigator>
+    </view>
+        <view class="fl2">
+        <navigator class="fl2_item">
+            <view class="fl2_item-img">
+                <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" mode="widthFix" class="fl2-img"></image>
+            </view>
+            <view class="fl2_item-name">
+                <text class="fl2-name">红红火火恍恍惚惚</text>
+            </view>
+        </navigator>
+    </view>
+        <view class="fl2">
+        <navigator class="fl2_item">
+            <view class="fl2_item-img">
+                <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" mode="widthFix" class="fl2-img"></image>
+            </view>
+            <view class="fl2_item-name">
+                <text class="fl2-name">红红火火恍恍惚惚</text>
+            </view>
+        </navigator>
+    </view>
+        <view class="fl2">
+        <navigator class="fl2_item">
+            <view class="fl2_item-img">
+                <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" mode="widthFix" class="fl2-img"></image>
+            </view>
+            <view class="fl2_item-name">
+                <text class="fl2-name">红红火火恍恍惚惚</text>
+            </view>
+        </navigator>
+    </view>
+        <view class="fl2">
+        <navigator class="fl2_item">
+            <view class="fl2_item-img">
+                <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" mode="widthFix" class="fl2-img"></image>
+            </view>
+            <view class="fl2_item-name">
+                <text class="fl2-name">红红火火恍恍惚惚</text>
+            </view>
+        </navigator>
+    </view>
+        <view class="fl2">
+        <navigator class="fl2_item">
+            <view class="fl2_item-img">
+                <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" mode="widthFix" class="fl2-img"></image>
+            </view>
+            <view class="fl2_item-name">
+                <text class="fl2-name">红红火火恍恍惚惚</text>
+            </view>
+        </navigator>
+    </view>
+        <view class="fl2">
+        <navigator class="fl2_item">
+            <view class="fl2_item-img">
+                <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" mode="widthFix" class="fl2-img"></image>
+            </view>
+            <view class="fl2_item-name">
+                <text class="fl2-name">红红火火恍恍惚惚</text>
+            </view>
+        </navigator>
+    </view>
+        <view class="fl2">
+        <navigator class="fl2_item">
+            <view class="fl2_item-img">
+                <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" mode="widthFix" class="fl2-img"></image>
+            </view>
+            <view class="fl2_item-name">
+                <text class="fl2-name">红红火火恍恍惚惚</text>
+            </view>
+        </navigator>
+    </view>
+        <view class="fl2">
+        <navigator class="fl2_item">
+            <view class="fl2_item-img">
+                <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" mode="widthFix" class="fl2-img"></image>
+            </view>
+            <view class="fl2_item-name">
+                <text class="fl2-name">红红火火恍恍惚惚</text>
+            </view>
+        </navigator>
+    </view>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/login/login.wxml-->
+<view class="big_row">
+    <view class="login_row">
+        <view class="img_row">
+            <image style="width:150rpx;height:150rpx" src="https://ae01.alicdn.com/kf/Ha9936a7cdb8b4a4fb80499dde3b5c90cC.png" />
+        </view>
+
+        <view class="userInput">
+            <input bindblur="EmaiGet" placeholder="    Email"/>
+            <view wx:if="{{actionE}}" ></view>
+            <view style="font-size:24rpx;padding-left:50rpx" wx:else class="theFalse">不支持该邮箱格式</view>
+        </view>
+
+        <view class="passwordInput">
+            <input bindblur="passwordGet" password="{{true}}" placeholder="    密码"/>
+            <view wx:if="{{actionP}}" ></view>
+            <view style="font-size:24rpx;padding-left:50rpx" wx:else class="theFalse">密码格式不正确</view>
+        </view>
+
+        <view class="findPassword" style="white-space:pre-wrap">                  忘记密码？
+        </view>
+
+        <view class="submitBtn">
+            <button bindtap='handleLogin'>登录</button>
+        </view>
+    </view>
+    <view class="nav">
+        <navigator url="">新用户？点击这里注册</navigator>
+        <!-- register -->
+    </view>
+</view>

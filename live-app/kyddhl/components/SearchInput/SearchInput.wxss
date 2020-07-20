@@ -1,0 +1,43 @@
+.box {
+  width: 100%;
+  height: 50rpx;
+  padding: 10rpx;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.box .login {
+  flex: 1;
+}
+.box .login .i1 {
+  width: 100%;
+  height: 70rpx;
+}
+.box .Search {
+  flex: 3;
+  padding: 10rpx;
+}
+.box .Search .nav {
+  height: 100%;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  background-color: #f4f4f4;
+  border-radius: 30rpx;
+  color: #EEEEEE;
+}
+.box .game {
+  flex: 1;
+}
+.box .game .i2 {
+  width: 100%;
+  height: 70rpx;
+}
+.box .msg {
+  flex: 1;
+}
+.box .msg .i3 {
+  width: 100%;
+  height: 70rpx;
+}

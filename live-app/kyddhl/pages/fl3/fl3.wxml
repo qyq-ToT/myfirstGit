@@ -1,0 +1,66 @@
+<view class="flrow3">
+    <view class="on_row">
+        <view class="sp">
+        <!-- <image src="http://chuantu.xyz/t6/734/1589878478x989499252.png" /> -->
+            <text>排行榜</text>
+        </view>
+        <!-- http://chuantu.xyz/t6/734/1589878478x989499252.png -->
+        <view class="sp">
+            <text>每周必看</text>
+        </view>
+        <view class="sp">
+            <text>入站必刷</text>
+        </view>
+    </view>
+    <view class="under_row">
+        <navigator class="video_row">
+            <view class="video_lj"></view>
+            <view class="video_title"></view>
+        </navigator>
+
+        <navigator class="video_row">
+            <view class="video_lj"></view>
+            <view class="video_title"></view>
+        </navigator>
+        
+        <navigator class="video_row">
+            <view class="video_lj"></view>
+            <view class="video_title"></view>
+        </navigator>
+
+        <navigator class="video_row">
+            <view class="video_lj"></view>
+            <view class="video_title"></view>
+        </navigator>
+
+        <navigator class="video_row">
+            <view class="video_lj"></view>
+            <view class="video_title"></view>
+        </navigator>
+
+        <navigator class="video_row">
+            <view class="video_lj"></view>
+            <view class="video_title"></view>
+        </navigator>
+
+        <navigator class="video_row">
+            <view class="video_lj"></view>
+            <view class="video_title"></view>
+        </navigator>
+
+        <navigator class="video_row">
+            <view class="video_lj"></view>
+            <view class="video_title"></view>
+        </navigator>
+
+        <navigator class="video_row">
+            <view class="video_lj"></view>
+            <view class="video_title"></view>
+        </navigator>
+
+        <navigator class="video_row">
+            <view class="video_lj"></view>
+            <view class="video_title"></view>
+        </navigator>
+    </view>
+</view>

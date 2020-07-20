@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/test3/test3",
+    "pages/test2/test2",
+    "pages/mine/mine",
+    "pages/foodsText/foodsText",
+    "pages/nodecontent/nodecontent",
+    "pages/test/test",
+    "pages/nodelist/nodelist", 
+    "pages/login/login",
+    "pages/Swiper/Swiper", 
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

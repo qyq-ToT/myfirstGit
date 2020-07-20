@@ -1,0 +1,58 @@
+<swiper indicator-dots="{{true}}" indicator-active-color="#525E71" duration="100" class="Swiper_row">
+    <swiper-item >
+        <view class="content">
+            <view class="img">
+                <image mode="aspectFill" src="https://ae01.alicdn.com/kf/H5de915aafffe4521ad92d4106a8dbd238.jpeg" />
+            </view>
+            <view class="title">
+                做最好的咖啡
+            </view>
+            <view class="text">
+                2017 年 50+最好的咖啡和咖啡机评测
+            </view>
+        </view>
+    </swiper-item>
+    <swiper-item >
+        <view class="content">
+            <view class="img">
+                <image mode="scaleToFill" src="https://icweiliimg1.pstatp.com/weili/bl/55308724830602137.jpg" />
+            </view>
+            <view class="title">
+                负担得起的海滩胜地
+            </view>
+            <view class="text">
+                "给我一个沙滩和一个吊床，我要上天了。"
+            </view>
+        </view>
+    </swiper-item>
+    <swiper-item >
+        <view class="content">
+            <view class="img">
+                <image mode="aspectFill" src="https://s1.ax1x.com/2020/05/24/tSJrwD.jpg" />
+            </view>
+            <view class="title">
+                美丽的疯狂
+            </view>
+            <view class="text">
+                如何在晚上清洁面部清除发光的皮肤？
+            </view>
+        </view>
+    </swiper-item>
+    <swiper-item >
+        <view class="content">
+            <view class="img">
+                <image mode="aspectFill" src="http://img1.gtimg.com/cd/pics/hv1/80/183/743/48360320.jpg" />
+            </view>
+            <view class="title">
+                开启新时代
+            </view>
+            <view class="text" style="white-space:pre-wrap">
+苹果公司展示无人驾驶汽车系统来检测行人和
+                        骑自行车者
+            </view>
+            <button size="1" bindtap='goToSwiperPage' class="login">
+                探索「星辰笔记」
+            </button>
+        </view>
+    </swiper-item>
+</swiper>

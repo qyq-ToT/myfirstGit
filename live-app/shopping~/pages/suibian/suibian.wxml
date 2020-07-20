@@ -1,0 +1,3 @@
+<!--pages/suibian/suibian.wxml-->
+<view style="padding:10px;border:1px red solid;margin:10px;" bindtap="alert">弹框1</view>
+

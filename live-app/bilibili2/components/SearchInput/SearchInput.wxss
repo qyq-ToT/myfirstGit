@@ -1,0 +1,33 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  height: 80rpx;
+  background-color: red;
+  padding: 10rpx;
+  margin-top: 10rpx;
+}
+.top .TVbt {
+  flex: 1;
+  background-color: green;
+}
+.top .search_input {
+  flex: 5;
+  background-color: yellow;
+}
+.top .search_input .navigator {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  border-radius: 15rpx;
+  color: blanchedalmond;
+}
+.top .game {
+  flex: 1;
+  background-color: blue;
+}
+.top .message {
+  flex: 1;
+  background-color: black;
+}
