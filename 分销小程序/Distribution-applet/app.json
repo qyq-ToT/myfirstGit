@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/title/title",
+    "pages/index/index",
+    "pages/commission/commission",
+    "pages/extensionCard/extensionCard",
+    "pages/extensionRank/extensionRank",
+    "pages/logs/logs",
+    "pages/withdrawal/withdrawal",
+    "pages/addbankcard/addbankcard",
+    "pages/delbankcard/delbankcard",
+    "pages/extensionalls/extensionalls",
+    "pages/withdrawalrecord/withdrawalrecord",
+    "pages/search/search",
+    "pages/searchResults/searchResults"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position":"bottom",
+    "borderStyle": "black",
+    "list":[
+      {
+        "pagePath": "pages/title/title",
+        "text": "文章",
+        "iconPath": "icons/index.png",
+        "selectedIconPath": "icons/index1.png" 
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "分销",
+        "iconPath": "icons/mine.png",
+        "selectedIconPath": "icons/mine1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

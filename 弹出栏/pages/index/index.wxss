@@ -1,0 +1,32 @@
+.sfbox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.sfbox .left_row {
+  height: 100vh;
+  transition: 0.5s;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.sfbox .left_row .content_row {
+  width: 90%;
+  background-color: #E8E6E8;
+}
+.sfbox .left_row .undefind_row {
+  width: 10%;
+  background-color: #ffffff;
+}
+.sfbox .right_row {
+  height: 100%;
+  transition: 0.5s;
+}
+.onclick {
+  width: 50rpx;
+  height: 50rpx;
+  background-color: indigo;
+  position: fixed;
+  top: 20rpx;
+  left: 20rpx;
+  z-index: 999;
+}

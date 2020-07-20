@@ -1,0 +1,19 @@
+<!--pages/withdrawalrecord/withdrawalrecord.wxml-->
+<view class="wit_reda">
+   <view class="wit_reda_left">
+        <text class="desc">余额（元）</text>
+        <text class="money">3000.00</text>
+   </view>
+   <button class="wit_reda_right">提现</button>
+</view>
+<!-- 提现记录 -->
+<scroll-view  class="wit_list" scroll-y="true" bindscrolltoupper="scrollUpper" bindscrolltolower="scrollLower">
+     <view class="wit_list_box" wx:for-items="{{mnl}}" wx:key="key">
+         <view class="wit_list_til">
+            <text class="all_left">提现</text><text class="all_right">-{{item.money}}</text>
+         </view>
+         <view class="wit_list_bil">
+            <text class="all_left">2019.06.29 14:00</text><text class="all_right">交易成功</text>
+         </view>
+     </view>
+</scroll-view>

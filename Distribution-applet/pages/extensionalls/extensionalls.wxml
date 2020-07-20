@@ -1,0 +1,21 @@
+<!--pages/extensionalls/extensionalls.wxml-->
+<!-- top -->
+<view class="eta_top">
+      <view>
+         <span>共</span>10000<span>人</span>
+      </view>
+</view>
+<!-- 类 -->
+<view class="eta_bt">
+    <ul class="eta_nartil">
+       <li>微信头像</li>
+       <li >微信昵称</li>
+       <li>等级</li>
+    </ul>
+</view>
+<!-- 下拉菜单 -->
+<view class="ulist"> 
+    <view wx:for="{{treeData}}"> 
+       <mytree model='{{ treeData[index] }}' bind:tapitem='tapItem'></mytree>
+    </view>
+</view>

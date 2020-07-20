@@ -1,0 +1,2 @@
+<!--pages/demo06/demo06.wxml-->
+<navigator url="/pages/demo05/demo05">跳转轮播图页面</navigator>

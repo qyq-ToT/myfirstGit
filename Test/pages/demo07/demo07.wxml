@@ -1,0 +1,4 @@
+<!--pages/demo07/demo07.wxml-->
+<button size="default" type="primary">一个按钮</button>
+<button size="mini" type="warn">一小个按钮</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">getUserInfo</button>

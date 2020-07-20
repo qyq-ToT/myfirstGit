@@ -1,0 +1,50 @@
+<view class="exRank">
+    <view class="head">
+        <view class="liveRk">分销排行榜</view>
+        <view class="rkContent">
+            <view class="hisM">已赚佣金:10000</view>
+            <view class="nowRk">当前排名 :99999</view>
+        </view>
+    </view>
+    <view class="body">
+        <view class="title">
+            <view class="left">排名</view>
+            <view class="center">昵称</view>
+            <view class="right">
+                <view class="txtr">分销</view>
+            </view>
+        </view>
+        <view class="line"
+        wx:for="{{rkList}}"
+        wx:key="pk"
+        style="background-color:{{item.bgcolor}};"
+        >   
+            <view wx:if="{{item.pk<=3}}">
+                <view class="rkIcon">
+                    <image class="rkimg" mode="scaleToFill" src="{{item.rkIcon}}" />
+                </view>
+            </view>
+            <view wx:else>
+                <view class="rkIcon">
+                    <view class="rkNum">{{item.pk}}</view>
+                </view>
+            </view>
+            
+            <view class="userInfo">
+                <view class="userIcon">
+                    <image class="uimg" mode="scaleToFill" src="{{item.userIcon}}"/>
+                </view>
+                <view class="username">
+                    <view class="unt">{{item.username}}</view>
+                </view>
+            </view>
+            
+            
+            <view class="result">
+                <view class="text">{{item.money}}</view>
+            </view>
+            
+            
+        </view>
+    </view>
+</view>

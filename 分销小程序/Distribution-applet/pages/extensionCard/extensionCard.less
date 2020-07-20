@@ -1,0 +1,109 @@
+
+.extensionCard {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+
+  .top_row {
+      width: 100%;
+      height: 150px;
+      background-color: #fd8259;
+      position: relative;
+    .usericon_row {
+        width: 70px;
+        height: 85px;
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        // border: 1px solid gold;
+        display: flex;
+        flex-direction: column;
+      .user-img {
+        width: 100%;
+        height: 70px;
+        
+        image{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+      }
+
+      .user-name {
+          margin-top: 7rpx;
+        width: 100%;
+        height: 15px;
+        text-align: center;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .center_row {
+        margin-top: 65px;
+        width: 100%;
+        height: 200px;
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    .QRcode {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        // border: 1px solid black;
+        .img1{
+          width: 160px;
+          height: 160px;
+        }
+        .smIcon{
+          width: 50px;
+          height: 50px;
+          // background-color: red;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform:translate(-50%,-50%);
+          .simg{
+            width: 100%;
+            height: 100%;
+          }
+        }
+    }
+    .pvBtn {
+      margin-top: 10px;
+      width: 120px;
+      height: 20px;
+      // border: 1px solid blue;
+      .buttom {
+        width: 100%;
+        height: 100%;
+        background-color: #fc4671;
+        border-radius: 8px;
+        font-size: 24rpx;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .bottom_row {
+    width: 100%;
+    height: 80px;
+    // border: 1px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .explain {
+      margin-top: 12rpx;
+      font-size: 20rpx;
+      color: #bcb8b3;
+      height: 10px;
+      width: 200px;
+    }
+  }
+}

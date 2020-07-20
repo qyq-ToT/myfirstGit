@@ -1,0 +1,4 @@
+<view bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" 
+    class="bindtouch"
+    style="width=400rpx;height:100vh;background-color: red;"
+></view>

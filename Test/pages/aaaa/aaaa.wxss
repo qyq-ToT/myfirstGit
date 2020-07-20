@@ -1,0 +1,17 @@
+/* pages/aaaa/aaaa.wxss */
+.top{
+  width: 100%;
+  height: 70rpx;
+  background-color: orange;
+}
+.center{
+  width: 200rpx;
+  height: 150rpx;
+  background-color: blue;
+}
+.bottom{
+  width: 50rpx;
+  height: 70rpx;
+  background-color: brown;
+  
+}

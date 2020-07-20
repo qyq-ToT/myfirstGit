@@ -1,0 +1,61 @@
+<!-- 头部开始 -->
+<view class="head">
+      <view class="input" bindtap="go">
+            <icon type="search" size="25" color="#c9c6c5"></icon>
+            <view class="line"></view>
+            <input placeholder="{{valuetwo}}" confirm-type="search" bindconfirm="play" bindfocus="Focusing" bindblur="outOf" disabled></input>
+       </view>
+</view>
+<!-- 头部结束 -->
+
+<!-- 中间数据开始 -->
+<view class="middle">
+     <view class="middleP1" style="color:{{color1}};" bindtap="click1">全部      <text>{{nb}}</text> </view>
+     <view class="middleP2" style="color:{{color2}};" bindtap="click2">实时热点  <text>{{nb}}</text>  </view>
+     <view class="middleP3" style="color:{{color3}};" bindtap="click3">知识普及  <text>{{nb}}</text>  </view>
+</view>
+<!-- 中间数据结束 -->
+
+<!-- 瀑布流开始 -->
+<swiper current="{{current}}" easing-function class="swiper" style="height:{{swiperHeight}}rpx;" bindchange="bian">
+  <swiper-item>
+   <view class="waterfall" style="{{}}">
+       <view class="">
+           <block wx:for="{{arr}}" wx:if="{{index<number}}">
+              <view class="box" style="height:{{item.height}};">
+                  <view class="boxLfet"> <image src="{{item.img}}"/> <view>{{item.word1}}</view> </view>
+                  <view class="boxRight"> <view class="word2">{{item.word2}}</view> <view class="word3">{{item.word}}</view> <view class="word4">{{item.word4}}</view> </view>
+              </view>
+           </block>
+             <!-- <view class="jiazai" style="display:{{display}};"><image src="/image/jz.gif"/></view> -->
+       </view>
+     </view>
+   </swiper-item>
+   <swiper-item>
+   <view class="waterfall" style="{{}}">
+       <view class="">
+           <block wx:for="{{arr}}" wx:if="{{index<number}}">
+              <view class="box" style="height:{{item.height}};">
+                  <view class="boxLfet"> <image src="{{item.img}}"/> <view>{{item.word1}}</view> </view>
+                  <view class="boxRight"> <view class="word2">{{item.word2}}</view> <view class="word3">{{item.word}}</view> <view class="word4">{{item.word4}}</view> </view>
+              </view>
+           </block>
+             <!-- <view class="jiazai2" style="display:{{display2}};"><image src="/image/jz.gif"/></view> -->
+       </view>
+     </view>
+   </swiper-item>
+   <swiper-item>
+   <view class="waterfall" style="{{}}">
+       <view class="">
+           <block wx:for="{{arr}}" wx:if="{{index<number}}">
+              <view class="box" style="height:{{item.height}};">
+                  <view class="boxLfet"> <image src="{{item.img}}"/> <view>{{item.word1}}</view> </view>
+                  <view class="boxRight"> <view class="word2">{{item.word2}}</view> <view class="word3">{{item.word}}</view> <view class="word4">{{item.word4}}</view> </view>
+              </view>
+           </block>
+             <!-- <view class="jiazai3" style="display:{{display3}};"><image src="/image/jz.gif"/></view> -->
+       </view>
+     </view>
+   </swiper-item>
+</swiper>
+<!-- 瀑布流结束 -->

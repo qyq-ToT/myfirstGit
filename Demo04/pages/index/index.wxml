@@ -1,0 +1,9 @@
+<template name="calulator-key">
+  <button hover-start-time="{{5}}" hover-start-time="{{10}}" hover-class="calculator-key-hover" data-key="{{className}}" class="calculator-key{{className}}">{{diaplay}}</button>
+</template>
+
+<view class="calculator">
+  <view class="calculator-display">
+    <view class="calculator-display-text">{{display:clearDisplay?'C':'C'}}</view>
+  </view>
+</view>

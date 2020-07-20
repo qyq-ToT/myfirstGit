@@ -1,0 +1,17 @@
+<view class="ul">
+    <view class="eta_list" wx:key='key' bindtap='{{isBranch?"toggle":"tapItem"}}' data-itemid='{{ model.id }}'>
+         <view class="eta_img">
+            <image src="{{open?imagb:imag}}" hidden="{{isBranch? false:true}}"></image>
+         </view>
+         <ul>
+         <li class='eta_usertop'>
+            <image src="/image/hcl_to.jpg"></image>
+          </li>
+          <li>{{model.text}}</li>
+          <li class="eta_userbotm">{{model.id}}级代理</li>
+          </ul>
+    </view>
+  <view class="eta_feil"  wx:if='{{ isBranch }}' hidden='{{ !open }}'>
+    <mytree wx:for='{{ model.childMenus}}' wx:key='id' model='{{ item }}'></mytree>
+  </view>
+</view> 

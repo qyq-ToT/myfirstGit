@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "Tabs":"../../components/Tabs/Tabs",
+    "SearchInput":"../../components/SearchInput/SearchInput"
+  },
+  "navigationBarTitleText": "会员购"
+}

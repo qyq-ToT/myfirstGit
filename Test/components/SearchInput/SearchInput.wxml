@@ -1,0 +1,8 @@
+<view class="top">
+  <view class="search_input">
+  <navigator class="navigator" url="pages/demo05/demo05" open-type="navigate">
+    魔力赏
+  </navigator>
+  </view>
+</view>
+

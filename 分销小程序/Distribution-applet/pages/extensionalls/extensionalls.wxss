@@ -1,0 +1,13 @@
+/* pages/extensionalls/extensionalls.wxss */
+page{width: 100%;}
+.eta_top{text-align: center;height:200rpx;background:rgb(224, 69,29);font-size: 50rpx;line-height: 200rpx;color: white;}
+.eta_top span{font-size: 25rpx;padding: 0 10rpx;}
+.eta_bt{margin: 20rpx 0 10rpx 0;width: calc(100vw - 90rpx);margin-left:50rpx;}
+.eta_bt .eta_nartil{text-align: center;}
+.eta_bt .eta_nartil li{font-size: 30rpx;display: inline-block;width:33%}
+.eta_list{display: flex;padding: 40rpx 0;border-bottom: 1rpx solid;}
+.eta_list image{width: 50rpx;height: 50rpx;border: 1rpx solid;margin: 0 25rpx;}
+.eta_list ul{display: flex;align-items: center;width:calc(100vw - 90rpx);}
+.eta_list .eta_usertop{display: flex;align-items: center;width: 25%;}
+.eta_usertop image{border-radius: 50%;}
+.eta_list li{font-size: 28rpx;display: inline-block;width:35%;text-align: center;}

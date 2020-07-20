@@ -1,0 +1,20 @@
+<!--pages/commission/commission.wxml-->
+<view class="commission">
+    <view class="navBtn">
+        <view class="btn">
+            去提现
+        </view>
+    </view>
+
+    <view class="line_row"
+    wx:for="{{commissionList}}"
+    wx:key="id"
+    style="background-color:{{item.bgcolor}};"
+    >
+        <view class="left-txt">{{item.left_txt}}</view>
+        <view class="left-data">{{item.left_data}}</view>
+        <view class="right-count">{{item.right_count}}</view>
+        <view class="right-zt">{{item.right_zt}}</view>
+    </view>
+</view>
+

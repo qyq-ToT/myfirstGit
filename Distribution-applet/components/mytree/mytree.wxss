@@ -1,0 +1,9 @@
+.eta_list{display: flex;padding: 20rpx 0;border-bottom: 1rpx solid rgb(245,245,245)}
+.eta_list .eta_img{width: 50rpx;height:50rpx;margin: 0 25rpx;}
+.eta_list image{width: 50rpx;height: 50rpx}
+.eta_usertop image{width: 60rpx;height: 60rpx;}
+.eta_list ul{display: flex;align-items: center;width:calc(100vw - 90rpx);}
+.eta_list .eta_usertop{display: flex;align-items: center;width: 22%;padding-left: 20rpx;}
+.eta_usertop image{border-radius: 50%;}
+.eta_list li{font-size: 28rpx;display: inline-block;width:35%;text-align: center;}
+.eta_feil{background: rgb(224, 220, 210); overflow: hidden;animation: ;}

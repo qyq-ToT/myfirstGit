@@ -1,0 +1,44 @@
+<!--pages/extensionCard/extensionCard.wxml-->
+<view class="extensionCard">
+    <!-- 头部容器 -->
+    <view class="top_row">
+        <view class="usericon_row">
+            <view class="user-img">
+                <image mode="scaleToFill" src="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1330059974,3839316409&fm=115&gp=0.jpg" />
+            </view>
+            <view class="user-name">如花</view>
+        </view>
+    </view>
+    <!-- 中间容器 -->
+    <view class="center_row">
+        <!-- 二维码 -->
+        <view class="QRcode">
+            <image class="img1" mode="scaleToFill" src="http://img3.imgtn.bdimg.com/it/u=2407321438,1556090525&fm=26&gp=0.jpg" />
+        
+                <!-- 二维码里面的小图片 -->
+            <view class="smIcon">
+                <image class="simg" mode="scaleToFill" src="https://ae01.alicdn.com/kf/H92ea65faab4148fcbe9578465dfc5016G.png" />
+            </view>
+        
+        </view>
+        <!-- 保存按钮 -->
+        <view class="pvBtn">
+            <view class="buttom">保存二维码</view>
+        </view>
+    </view>
+    <!-- 底部容器 -->
+    <view class="bottom_row">
+        <!-- 说明 -->
+        <view class="explain">
+            1.将此页面二维码保存并发送给您的好友
+        </view>
+
+        <view class="explain">
+            2.好友识别二维码通过手机号进行注册
+        </view>
+
+        <view class="explain">
+            3.好友进行实名认证后推荐奖励给您账户
+        </view>
+    </view>
+</view>

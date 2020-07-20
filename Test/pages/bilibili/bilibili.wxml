@@ -1,0 +1,40 @@
+<view>
+  <SearchInput></SearchInput>
+</view>
+<view class="bili">
+    <view class="aaa"><navigator open-type="navigate" url="/pages/demo03/demo03"><image src="http://chuantu.xyz/t6/733/1589189492x989559068.png"/></navigator></view>
+    <view class="aaa"><image src="http://chuantu.xyz/t6/733/1589189607x989499252.png"/></view>
+    <view class="aaa"><image src="http://chuantu.xyz/t6/733/1589189768x2890186148.png"/></view>
+    <view class="aaa"><image src="http://chuantu.xyz/t6/733/1589189799x989559068.png"/></view>
+    <view class="aaa"><image src="http://chuantu.xyz/t6/733/1589189837x989499252.png"/></view>
+    <view class="aaa"><image src="http://chuantu.xyz/t6/733/1589189870x989559068.png"/></view>
+    <view class="aaa"><image src="http://chuantu.xyz/t6/733/1589189995x989559068.png"/></view>
+    <view class="aaa"><image src="http://chuantu.xyz/t6/733/1589190026x2890173815.png"/></view>
+</view>
+<view class="bili2">
+  <view class="bbb"><image src="http://chuantu.xyz/t6/733/1589190048x989499252.png"/></view>
+  <view class="bbb"><image src="http://chuantu.xyz/t6/733/1589190084x989499252.png"/></view>
+  <view class="bbb"><image src="http://chuantu.xyz/t6/733/1589190107x989559068.png"/></view>
+</view>
+<swiper indicator-dots indicator-active-color="#2222DD" autoplay interval="2000"  circular display-multiple-items="1" duration="2000">
+  <swiper-item><image mode="widthFix" src="https://img.alicdn.com/tps/i4/TB1.i6RE.H1gK0jSZSySuttlpXa.jpg_q90_.webp"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB183NQapLM8KJjSZFBSutJHVXa.jpg"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB1XotJXQfb_uJkSnhJSuvdDVXa.jpg"/></swiper-item>
+</swiper>
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange" >
+  <block wx:if="{{tabs[0].isActive}}">
+    <view class="bili3">
+      <view class="ccc"><navigator open-type="navigate" url="/pages/demo03/demo03"><image src="http://chuantu.xyz/t6/733/1589195056x989499252.png"/></navigator></view>
+      <view class="ccc"><navigator open-type="navigate" url="/pages/demo03/demo03"><image src="http://chuantu.xyz/t6/733/1589195378x989559068.png"/></navigator></view>
+      <view class="ccc"><navigator open-type="navigate" url="/pages/demo03/demo03"><image src="http://chuantu.xyz/t6/733/1589195402x989559068.png"/></navigator></view>
+      <view class="ccc"><navigator open-type="navigate" url="/pages/demo03/demo03"><image src="http://chuantu.xyz/t6/733/1589195426x989499252.png"/></navigator></view>
+      <view class="ccc"><navigator open-type="navigate" url="/pages/demo03/demo03"><image src="http://chuantu.xyz/t6/733/1589195866x989499252.png"/></navigator></view>
+      <view class="ccc"><navigator open-type="navigate" url="/pages/demo03/demo03"><image src="http://chuantu.xyz/t6/733/1589195887x989499252.png"/></navigator></view>
+      <view class="ccc"><navigator open-type="navigate" url="/pages/demo03/demo03"><image src="http://chuantu.xyz/t6/733/1589195906x989499252.png"/></navigator></view>
+      <view class="ccc"><navigator open-type="navigate" url="/pages/demo03/demo03"><image src="http://chuantu.xyz/t6/733/1589195927x989499252.png"/></navigator></view>
+    </view>
+  </block>
+  <block wx:if="{{tabs[1].isActive}}">2</block>
+  <block wx:if="{{tabs[2].isActive}}">3</block>
+  <block wx:if="{{tabs[3].isActive}}">4</block>
+</Tabs>

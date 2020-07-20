@@ -1,0 +1,11 @@
+/* pages/demo03/demo03.wxss */
+.aa{
+  width: 100%;
+  height: 1330rpx;
+  background-color: pink;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+}

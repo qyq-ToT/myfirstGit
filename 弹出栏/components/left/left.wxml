@@ -1,0 +1,44 @@
+<view class="left_row" >
+    <view class="head">
+        <view class="headicon">
+            <image mode="scaleToFill" src="https://ae01.alicdn.com/kf/Ha9936a7cdb8b4a4fb80499dde3b5c90cC.png" style="width:120rpx;height:120rpx;border-radius:50%;" />
+            <view style="text-align:center;font-size:26rpx">  Kika</view>
+        </view>
+        <view class="eml">
+            <text >2564388423@qq.com</text>
+        </view>
+    </view>
+
+    <view class="body">
+        <view class="icon_row">
+            <view class="icon">
+                <image src="https://ae01.alicdn.com/kf/H89a7dbc1bdfc4943a60d36fb95b83f2fB.png" style="width:50rpx;height:50rpx" />
+            </view>
+
+            <view class="icon">
+                <image src="https://ae01.alicdn.com/kf/H8a975ac4832a4ff98943cb118508872ae.png" style="width:50rpx;height:50rpx" />
+            </view>
+
+            <view class="icon">
+                <image src="https://ae01.alicdn.com/kf/H245425dcd9fa402490a35a99bb563abd4.png" style="width:50rpx;height:50rpx" />
+            </view>
+        </view>
+
+        <view class="title_row">
+            <view class="title">个人作品</view>
+            <view class="title">我的收藏</view>
+            <view class="title">设置</view>
+        </view>
+    </view>
+
+    <view class="foot">
+        <view class="exit_row">
+            <view class="exit_icon">
+                <image mode="scaleToFill" src="https://ae01.alicdn.com/kf/H8ff65f2055f349c0823c0a463027aa1fA.png" style="padding-left:40rpx;width:50rpx;height:50rpx" />
+            </view>
+            <view class="exit_nav">
+                <view bindtap="exit">退出登录</view>
+            </view>
+        </view>
+    </view>
+</view>

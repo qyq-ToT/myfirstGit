@@ -1,0 +1,71 @@
+<!-- 大盒子开始 -->
+<view class="boxda">
+
+<!-- 头部开始 -->
+<view class="head">
+       <view class=""><icon type="search" size="25" bindtap="go"></icon></view>
+       <view class="" bindtap="click">时实热点<view class="line" style="left:{{line}}rpx;"></view></view>
+       <view class="" bindtap="click">知识普及</view>
+       <view class=""></view>
+</view>
+<!-- 头部结束 -->
+
+
+
+<!-- 瀑布流开始 -->
+
+<swiper current="{{current}}" easing-function class="swiper" style="height:{{swiperHeight}}rpx;" bindchange="bian">
+   <swiper-item>
+    <!-- 轮播1开始 -->
+     <view class="shuffling">
+      <swiper class="swiper" next-margin="35rpx" previous-margin="35rpx" current="{{index}}" bindchange="transform" circular>
+           <swiper-item ><image src="https://ae01.alicdn.com/kf/H2826035e084549e5800ab4d9dea789a4T.jpg" class="{{imgleft1}}"/></swiper-item>
+           <swiper-item ><image src="https://ae01.alicdn.com/kf/H57c30c3bbca74ac6ab0c10915487133f7.jpg" class="{{imgleft2}}"/></swiper-item>
+           <swiper-item ><image src="https://ae01.alicdn.com/kf/H379e2c1b0dc54401b6fd8e78da832a0c7.png" class="{{imgleft3}}"/></swiper-item>
+      </swiper>
+     </view>
+    <!-- 轮播1结束 -->
+      <view class="waterfall">
+       <view class="">
+           <block wx:for="{{waterfall}}" wx:if="{{index<number}}">
+              <view class="box" style="height:{{item.height}};">
+                  <view class="boxLfet"> <image src="{{item.img}}"/> <view>{{item.word1}}</view> </view>
+                  <view class="boxRight"> <view class="word2">{{item.word2}}</view> <view class="word3">{{item.word3}}</view> <view class="word4">{{item.word4}}</view> </view>
+              </view>
+           </block>
+           <view class="jiazai" style="display:{{display}};"><image src="/image/jz.gif"/></view>
+       </view>
+      </view>
+     
+    </swiper-item>
+          
+    <swiper-item>
+    <!-- 轮播2开始 -->
+      <view class="shuffling">
+      <swiper class="swiper" next-margin="35rpx" previous-margin="35rpx" current="{{index}}" bindchange="transform2" circular>
+           <swiper-item ><image src="https://ae01.alicdn.com/kf/Hfab3f5f634a547899c945040312bbcf9m.jpg" class="{{imgright1}}"/></swiper-item>
+           <swiper-item ><image src="https://ae01.alicdn.com/kf/H819ffaaf341841fca4dc07a02ebf431dI.jpg" class="{{imgright2}}"/></swiper-item>
+           <swiper-item ><image src="https://ae01.alicdn.com/kf/Haff785cfb6a84ebbaa3baa277b277143g.jpg" class="{{imgright3}}"/></swiper-item>
+       </swiper>
+       </view>
+     <!-- 轮播2结束 -->
+     <view class="waterfall">
+       <view class="">
+           <block wx:for="{{waterfall}}" wx:if="{{index<number}}">
+              <view class="box" style="height:{{item.height}};">
+                  <view class="boxLfet"> <image src="{{item.img}}"/> <view>{{item.word1}}</view> </view>
+                  <view class="boxRight"> <view class="word2">{{item.word2}}</view> <view class="word3">{{item.word3}}</view> <view class="word4">{{item.word4}}</view> </view>
+              </view>
+           </block>
+               <view class="jiazai2" style="display:{{display2}};"><image src="/image/jz.gif"/></view>
+       </view>
+      
+      </view>
+    
+    </swiper-item>
+</swiper>
+<!-- 瀑布流结束 -->
+<!-- <view class="jiazai" style="display:{{display}};"><image src="/image/jz.gif"/></view> -->
+
+<!-- 大盒子结束 -->
+</view>

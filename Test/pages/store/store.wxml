@@ -1,0 +1,25 @@
+<!--pages/store/store.wxml-->
+
+<view class="search_input">
+  <input value="搜索"></input>
+</view>
+<view class="bili">
+    <view class="aaa"></view>
+    <view class="aaa"></view>
+    <view class="aaa"></view>
+    <view class="aaa"></view>
+    <view class="aaa"></view>
+    <view class="aaa"></view>
+    <view class="aaa"></view>
+    <view class="aaa"></view>
+</view>
+<view class="bili2">
+  <view class="bbb"></view>
+  <view class="bbb"></view>
+  <view class="bbb"></view>
+</view>
+<swiper indicator-dots indicator-active-color="#2222DD" autoplay interval="2000"  circular display-multiple-items="1" duration="2000">
+  <swiper-item><image mode="widthFix" src="https://img.alicdn.com/tps/i4/TB1.i6RE.H1gK0jSZSySuttlpXa.jpg_q90_.webp"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB183NQapLM8KJjSZFBSutJHVXa.jpg"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB1XotJXQfb_uJkSnhJSuvdDVXa.jpg"/></swiper-item>
+</swiper>

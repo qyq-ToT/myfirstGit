@@ -1,0 +1,6 @@
+<!--pages/demo02/demo02.wxml-->
+<text>pages/demo02/demo02.wxml</text>
+<input type="text" bindinput="onclick"/>
+<button bindtap="dj" data-operation="{{1}}">+</button>
+<button bindtap="dj" data-operation="{{-1}}">-</button>
+<view>{{num}}</view>

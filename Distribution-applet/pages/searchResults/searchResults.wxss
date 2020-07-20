@@ -1,0 +1,34 @@
+
+/* 头部开始 */
+.head{display: flex;justify-content: center;padding:5rpx 20rpx 10rpx 20rpx;}
+.head .input{width: 100%;position: relative;}
+.head .input input{background-color: #ededed;height: 70rpx;border-radius: 15rpx;padding-left: 120rpx;}
+.head .input icon{position: absolute;top: 10rpx;left: 35rpx;}
+.head .input .line{width: 1rpx;height: 30rpx;position: absolute;top: 20rpx;left: 100rpx;background-color: #c9c6c5;}
+/* 头部结束 */
+
+/* 中间数据开始 */
+.middle{display: flex;margin: 40rpx 0 40rpx 0rpx;}
+.middle text{color: red;font-size: 25rpx;}
+.middle .middleP1{margin-left: 40rpx;}
+.middle .middleP2{margin-left: 40rpx;}
+.middle .middleP3{margin-left: 40rpx;}
+/* 中间数据结束 */
+
+/* 瀑布流开始 */
+.waterfall{width: 100%;margin-top: 15rpx;}
+.waterfall .box{width: 100%;display: flex;justify-content: center;padding: 3%;background-color: white;}
+.waterfall .box .boxLfet{width: 46%;position: relative;}
+.waterfall .box .boxLfet image{width:100%;height: 100%;}
+.waterfall .box .boxLfet view{position: absolute;bottom: 10rpx;color: white;left: 8rpx;font-size: 25rpx;}
+.waterfall .box .boxRight{width: 46%;margin-right: 5%;padding: 15rpx;display: flex;justify-content: space-between;flex-wrap:wrap;position: relative;}
+.waterfall .box .boxRight .word2{width: 100%;font-size: 30rpx;}
+.waterfall .box .boxRight .word3{font-size: 25rpx;color: #7e7e7e;position: absolute;bottom: 10rpx;}
+.waterfall .box .boxRight .word4{font-size: 25rpx;color: #7e7e7e;position: absolute;bottom: 10rpx;right: 25rpx;}
+.jiazai{width: 750rpx;height: 50rpx;}
+ .jiazai image{width: 50rpx;height: 50rpx;margin-left: 49%;} 
+ .jiazai2{width: 750rpx;height: 50rpx;}
+ .jiazai2 image{width: 50rpx;height: 50rpx;margin-left: 49%;} 
+ .jiazai3{width: 750rpx;height: 50rpx;}
+ .jiazai3 image{width: 50rpx;height: 50rpx;margin-left: 49%;} 
+/* 瀑布流结束 */

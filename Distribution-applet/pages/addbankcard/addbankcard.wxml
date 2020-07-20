@@ -1,0 +1,26 @@
+<!--pages/addbankcard/addbankcard.wxml-->
+<view class="adbankcard">
+<!-- 头部 -->
+    <view class="adbankcard_top">
+        <text>添加银行卡</text>
+<!-- 表单 -->
+        <view class="adbk_forme">
+            <view class="adbk_fm">
+              <view>姓名:</view>
+              <input type="text" placeholder="请输入" bindinput="name"></input>
+            </view>
+            <view class="adbk_fm">
+              <view>银行卡号:</view>
+              <input placeholder="请输入" maxlength='22' bindinput="bankcard" value="{{bankcardnamber}}"></input>
+            </view>
+            <view class="adbk_fm">
+              <view>开户行:</view>
+              <input placeholder="请输入" bindinput="openbankname"></input>
+            </view>
+        </view>
+    </view>
+<!-- 尾部button -->
+    <view class="adbk_bottom">
+       <button bindtap="sendwdl">提交</button>
+    </view>
+</view>

@@ -1,0 +1,14 @@
+/* pages/withdrawalrecord/withdrawalrecord.wxss */
+Page{width:100%;height:100%;background:rgb(245, 245, 245);}
+.wit_reda{width: 100%;height: 180rpx;background:rgb(255, 77,77);}
+.wit_reda .wit_reda_left{display: flex;flex-flow: column;float: left;margin: 40rpx 0rpx 0rpx 20rpx;color: white;}
+.wit_reda .wit_reda_left .desc{margin-bottom:15rpx;font-size: 28rpx;}
+.wit_reda .wit_reda_right{width:170rpx;float: right;font-size: 28rpx;border-radius: 50rpx;margin: 80rpx 20rpx 0 0rpx;color:rgb(255, 77,77);height:60rpx;line-height: 60rpx;}
+.wit_list{height: 88%;}
+.wit_list .wit_list_box{width: calc(100vw - 40rpx);margin: 30rpx 20rpx 0 20rpx;height: 150rpx;background: white;box-shadow: 0rpx 0rpx 10rpx rgb(199, 196, 196);border-radius: 10rpx;display:flex;flex-flow: column;}
+.wit_list .wit_list_box .wit_list_til{font-size: 35rpx;font-weight: 600;}
+.wit_list .wit_list_box .all_left{float: left;padding: 20rpx 0 0 20rpx;}
+.wit_list .wit_list_box .wit_list_bil{font-size: 32rpx;color: rgb(199, 196, 196);}
+.wit_list .wit_list_box .all_right{float: right;padding: 20rpx 20rpx 0 0;}
+
+

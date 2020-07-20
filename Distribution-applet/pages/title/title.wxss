@@ -1,0 +1,39 @@
+/* 大盒子开始 */
+.boxda{width: 100%;height: 100vh;}
+/* 大盒子结束 */
+
+/* 头部开始 */
+.boxda .head{display: flex;align-items: center;background-color: white;width: 100%;height: 80rpx;justify-content: space-between;border-bottom: 1rpx solid #cccaca;position: fixed;top: 0;z-index: 999;}
+.boxda .head view:nth-child(1){width: 20%;margin: 15rpx;height: 100%;}
+.boxda .head view:nth-child(2){width: 30%;text-align: center;height: 100%;position: relative;}
+.boxda .head view .line{width: 35%;height: 5rpx;background-color:#7e7e7e;position: absolute;bottom: -16rpx;}
+.boxda .head view:nth-child(3){width: 30%;text-align: center;height: 100%;}
+.boxda .head view:nth-child(4){width: 20%;height: 100%;}
+/* 头部结束 */
+
+/* 轮播开始 */
+.shuffling{width: 100%;}
+.shuffling .swiper{width: 100%;}
+.shuffling .swiper swiper-item{width: 100%;}
+.shuffling .swiper swiper-item .imgChange1{width: 100%;height: 80%;margin-top:5%;}
+.shuffling .swiper swiper-item .imgChange2{width: 100%;height: 100%;}
+.shuffling .swiper swiper-item .imgChange3{width: 100%;height: 80%;margin-top:5%;}
+.prepareStyle{width: 100%;height: 100%;}
+/* 轮播结束 */
+
+/* 瀑布流开始 */
+.swiper{width: 750rpx;margin-top: 50rpx;}
+.waterfall{width: 100%;margin-top: 15rpx;}
+.waterfall .box{width: 100%;display: flex;justify-content: center;padding: 3%;background-color: white;}
+.waterfall .box .boxLfet{width: 46%;position: relative;}
+.waterfall .box .boxLfet image{width:100%;height: 100%;}
+.waterfall .box .boxLfet view{position: absolute;bottom: 10rpx;color: white;left: 8rpx;font-size: 25rpx;}
+.waterfall .box .boxRight{width: 46%;margin-right: 5%;padding: 15rpx;display: flex;justify-content: space-between;flex-wrap:wrap;position: relative;}
+.waterfall .box .boxRight .word2{width: 100%;font-size: 30rpx;}
+.waterfall .box .boxRight .word3{font-size: 25rpx;color: #7e7e7e;position: absolute;bottom: 10rpx;}
+.waterfall .box .boxRight .word4{font-size: 25rpx;color: #7e7e7e;position: absolute;bottom: 10rpx;right: 25rpx;}
+.jiazai{width: 750rpx;height: 50rpx;}
+ .jiazai image{width: 50rpx;height: 50rpx;margin-left: 49%;} 
+ .jiazai2{width: 750rpx;height: 50rpx;}
+ .jiazai2 image{width: 50rpx;height: 50rpx;margin-left: 49%;} 
+/* 瀑布流结束 */

@@ -1,0 +1,19 @@
+/* 头部开始 */
+  .head{display: flex;justify-content: space-between;padding:5rpx 55rpx 10rpx 55rpx;border-bottom: 1rpx solid #cccaca;}
+  .head .headLeft{width: 85%;position: relative;}
+  .head .headLeft input{background-color: #ededed;height: 60rpx;border-radius: 15rpx;padding-left: 120rpx;}
+  .head .headLeft icon{position: absolute;top: 7rpx;left: 35rpx;}
+  .head .headLeft .line{width: 1rpx;height: 30rpx;position: absolute;top: 17rpx;left: 100rpx;background-color: #c9c6c5;}
+  .head .headRight{display: flex;align-items: center;color: #898989;}
+/* 头部结束 */
+
+/* 搜索历史与热搜开始 */
+.history .historyTop{display: flex;justify-content: space-between;margin:20rpx 50rpx 20rpx 50rpx; font-size: 29rpx;}
+.history .historyTop .historyTopRight{color: #b9b8b8;}
+.history .historyBottom{padding: 5rpx 30rpx 5rpx 30rpx;display: flex;flex-wrap: wrap;}
+.history .historyBottom .minBox{padding: 15rpx 40rpx 15rpx 40rpx;background-color: #ededed;display: inline-block;text-align: center;margin-left:30rpx;border-radius: 15rpx;color: #898989;font-size: 29rpx;margin-bottom:30rpx;}
+
+.HotSearch .HotSearchTop{display: flex;justify-content: space-between;margin:20rpx 50rpx 20rpx 50rpx; font-size: 29rpx;}
+.HotSearch .HotSearchBottom{padding: 5rpx 30rpx 5rpx 30rpx;display: flex;flex-wrap: wrap;}
+.HotSearch .HotSearchBottom .minBox2{padding: 15rpx 40rpx 15rpx 40rpx;background-color: #ededed;display: inline-block;text-align: center;margin-left:30rpx;border-radius: 15rpx;color: #898989;font-size: 29rpx;margin-bottom:30rpx;}
+/* 搜索历史与热搜结束 */

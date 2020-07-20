@@ -1,0 +1,27 @@
+<!--pages/delbankcard/delbankcard.wxml-->
+<view class="dlbankcard">
+<!-- 头部 -->
+    <view class="dlbankcard_top">
+        <text>修改银行卡</text>
+<!-- 表单 -->
+        <view class="dlbk_forme">
+            <view class="dlbk_fm">
+              <view>姓名:</view>
+              <input placeholder="请输入" value="{{user}}"></input>
+            </view>
+            <view class="dlbk_fm">
+              <view>银行卡号:</view>
+              <input placeholder="请输入" value="{{bankmenber}}"></input>
+            </view>
+            <view class="dlbk_fm">
+              <view>开户行:</view>
+              <input placeholder="请输入" value="{{bankname}}"></input>
+            </view>
+        </view>
+    </view>
+<!-- 尾部button -->
+    <view class="dlbk_bottom">
+       <button bindtap="">删除</button>
+       <button bindtap="">修改</button>
+    </view>
+</view>

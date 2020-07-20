@@ -1,0 +1,27 @@
+/* pages/withdrawal/withdrawal.wxss */
+Page{width: 100%;height: 100%;background: rgb(245, 245, 245);}
+/* 上半部样式 */
+.wdl_top{width: 90%;margin-left: 5%;height: 55%;display: flex;flex-flow: column;}
+.wdl_top .wdl_title{padding-top: 5%;}
+.wdl_top .wdl_title .wdl_tilte_left{float: left;}
+.wdl_top .wdl_title .wdl_title_nar{font-size: 38rpx;font-weight: 800;}
+.wdl_top .wdl_title .wdl_title_alls{font-size: 30rpx;padding-left: 20rpx;}
+.wdl_top .wdl_title .wdl_icon{float: right;font-size: 40rpx;font-weight: 800;}
+.wdl_bankcard{position: relative;height:85%;margin-top:10rpx;overflow: hidden;color: white;}
+.wdl_bankcard .wdl_rid{position: absolute;right:0;transform:scale(.8)}
+.wdl_bankcard .wdl_bankcard_top{position: absolute;font-size: 30rpx;width: 100%;height: 350rpx;border-radius: 20rpx;background: white;display: inline-block;margin-top:20rpx;box-shadow: 0rpx 0rpx 10rpx rgb(70, 69, 69);}
+.wdl_bankcard .wdl_bankcard_top image{float: left;width: 80rpx;height: 80rpx;border: 1rpx solid;margin:30rpx 0 30rpx 30rpx;border-radius: 50%;background: white;}
+.wdl_bankcard .wdl_bankcard_top .wdl_bankcard_til{float: left;display: flex;flex-flow: column;margin:30rpx 30rpx;}
+.wdl_bankcard .wdl_bankcard_top .wdl_bankcard_til .mnl{font-size: 35rpx;font-weight: 600;}
+.wdl_bankcard .wdl_bankcard_top .cardnumber{float: right;margin:50rpx 30rpx 0 0;}
+
+/* 下半部样式 */
+.wdl_bottom{height: 45%;background: white;display: flex;flex-flow: column;padding: 0 2%;}
+.wdl_bottom .wd_ms{font-size: 28rpx;color:rgb(88, 81, 81);}
+.wdl_bottom button{width: 70%;font-size: 28rpx;border-radius: 50rpx;background: rgb(241, 95, 51);margin-top: 10%;color: white;box-shadow: 5rpx 10rpx 10rpx rgb(173, 173, 173);}
+.wdl_bottom .wdl_bottom_tx{display: flex;flex-flow: column;font-size: 35rpx;font-weight: 800;border-bottom: 1rpx solid rgb(245, 245, 245);}
+.wdl_bottom .wdl_bottom_tx text{padding: 30rpx 0;}
+.wdl_bottom .wd_bottom_lr{font-size: 28rpx;color: rgb(88, 81, 81);padding: 20rpx 0;}
+.wdl_bottom .wd_bottom_lr .wd_bottom_l{float: left;}
+.wdl_bottom .wd_bottom_lr .wd_bottom_r{float: right;color: rgb(250,122,91);}
+

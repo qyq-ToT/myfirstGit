@@ -1,0 +1,38 @@
+
+<!-- 头部开始 -->
+<view class="head">
+       <view class="headLeft">
+            <icon type="search" size="25" color="#c9c6c5"></icon>
+            <view class="line"></view>
+            <input placeholder="请输入关键字" confirm-type="search" bindconfirm="play" bindfocus="Focusing" bindblur="outOf" value="{{value}}"></input>
+       </view>
+       <view class="headRight" bindtap="out">取消</view>
+</view>
+<!-- 头部结束 -->
+
+<!-- 搜索历史与热搜开始 -->
+<view class="history">
+       <view class="historyTop">
+          <view class="historyTopLeft">搜索历史</view>
+          <view class="historyTopRight" bindtap="ClearTheCache">清空历史</view>
+       </view>
+       <view class="historyBottom">
+          <block wx:for="{{black}}" wx:key>
+             <view class="minBox" >
+               <view bindtap="extract" data-word="{{item.word}}">{{item.word}}</view>
+             </view>
+          </block>
+       </view>
+</view>
+
+<view class="HotSearch" style="display:{{display}};">
+        <view class="HotSearchTop">热搜词</view>
+        <view class="HotSearchBottom">
+          <block wx:for="{{HotSearch}}" wx:key>
+             <view class="minBox2">
+               <view bindtap="extract" data-word="{{item.word}}">{{item.word}}</view>
+             </view>
+          </block>
+       </view>
+</view>
+<!-- 搜索历史与热搜结束 -->

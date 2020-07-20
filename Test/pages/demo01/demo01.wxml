@@ -1,0 +1,47 @@
+<!--pages/demo01/demo01.wxml-->
+<text>pages/demo01/demo01.wxml</text>
+<text>1</text>
+<text>2</text>
+<view>2333</view>
+<view>{{msg}}</view>
+<view>{{num}}</view>
+<view>1+1=3?{{pd}}</view>
+<view>person id------{{person.id}}</view>
+<view>person age------{{person.age}}</view>
+<view>person name------{{person.name}}</view>
+<checkbox checked="{{isok}}"></checkbox>
+<view>{{1+1==3 ? 'true':'false'}}</view>
+<view>
+  <view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+  <!-- wx:key="*this",b表示循环的是一个普通的数组，如[1,1,3,56,67]/["1","qqq","zxc","213sfef"] -->
+    索引：{{index}}
+    值：{{item.name}}
+  </view>
+</view>
+<view>
+  <view wx:for="{{person}}">
+  属性:{{index}}
+  值：{{item}}
+  </view>
+</view>
+<view>
+  <view>条件渲染</view>
+  <view wx:if="{{true}}">显示</view>
+  <view wx:if="{{false}}">隐藏</view>
+
+  <view wx:if="{{true}}">1</view>
+  <view wx:elif="{{false}}">2</view>
+
+  <view wx:if="{{false}}">1</view>
+  <view wx:elif="{{false}}">2</view>
+  <view wx:el>3</view>
+
+  <view>hidden</view>
+  <view hidden="{{false}}">1111</view>
+
+  <!-- 什么情况用哪个？
+  1、当标签不是频繁的切换显示优先使用 wx:if，它是通过直接把标签从页面结构移除掉来实现的
+  2、当标签频繁切换显示的时候优先使用hidden，它是通过添加样式的方式来切换显示。 -->
+  <!-- hidden属性不要和display样式一起使用 -->
+</view>
+

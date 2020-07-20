@@ -1,0 +1,9 @@
+
+<view class="yellow">
+   
+</view>
+
+<view class="red">
+    <view class="green"></view>
+    <view class="blue"></view>
+</view>

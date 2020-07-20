@@ -1,0 +1,69 @@
+.bili{
+  width: 100%;
+  height: 300rpx;
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.bili2{
+  width: 100%;
+  height: 200rpx;
+  background-color: brown;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.aaa{
+  height: 180rpx;
+  width: 180rpx;
+}
+.aaa:nth-child(1){
+  background-color: teal;
+}
+.aaa:nth-child(2){
+  background-color: thistle;
+}
+.aaa:nth-child(3){
+  background-color: tomato;
+}
+.aaa:nth-child(4){
+  background-color: violet;
+}
+.aaa:nth-child(5){
+  background-color: white;
+}
+.aaa:nth-child(6){
+  background-color: red;
+}
+.aaa:nth-child(7){
+  background-color: black;
+}
+.aaa:nth-child(8){
+  background-color: blue;
+}
+.bbb{
+  height: 190rpx;
+  width: 250rpx;
+}
+.bbb:nth-child(1){
+  background-color: chocolate;
+}
+.bbb:nth-child(2){
+  background-color: cornflowerblue;
+}
+.bbb:nth-child(3){
+  background-color: darkblue;
+}
+swiper{
+  width: 100%;
+  height: calc(100vw*280/520);
+}
+image{
+  width: 100%;
+}
+.search_input{
+  width: 100%; 
+}

@@ -1,0 +1,60 @@
+<!--index.wxml-->
+<view class="index">
+  <!-- 上方内容容器 -->
+  <view class="top_row">
+    <view class="nowMoney">
+      <view class="title">当前佣金</view>
+      <view class="number">0</view>
+    </view>
+    <view bindtap="navtoTxHistory" class="txHistory">
+      <view class="title">提现记录</view>
+      <view class="number">
+        <image mode="scaleToFill" src="https://ae01.alicdn.com/kf/H851efccff1aa4b2b8d04235acb338a0fQ.png" />
+      </view>
+    </view>
+    <view class="yesterday">
+      <view class="title">昨天受益</view>
+      <view class="number">0</view>
+    </view>
+    <view class="accumulate">
+      <view class="title">累计已提</view>
+      <view class="number">0</view>
+    </view>
+
+    <view class="navto">
+      <view bindtap="navtoNome2" class="natotitle">
+        <view>立即提现</view>
+      </view>
+    </view>
+  </view>
+  <!-- 下方内容容器 -->
+  <view class="bottom_row">
+    <view bindtap="navtoExtensionCard" class="content_row">
+      <view class="icon">
+        <image mode="scaleToFill" src="https://ae01.alicdn.com/kf/Hfa864bdbbb2e49db8c5c1067b5161d0f8.png" />
+      </view>
+      <view class="txt">推广名片</view>
+    </view>
+
+    <view bindtap="navtoNome3" class="content_row">
+      <view class="icon">
+        <image mode="scaleToFill" src="https://ae01.alicdn.com/kf/H5aef484c3ecc4b8280c76d68f7c2914ae.png" />
+      </view>
+      <view class="txt">推广人统计</view>
+    </view>
+
+    <view bindtap="navtoCommission" class="content_row">
+      <view class="icon">
+        <image mode="scaleToFill" src="https://ae01.alicdn.com/kf/H628f57079d3e472ea113f0e6bef6f785W.png" />
+      </view>
+      <view class="txt">佣金明细</view>
+    </view>
+
+    <view bindtap="navtoExtensionRank" class="content_row">
+      <view class="icon">
+        <image mode="scaleToFill" src="https://ae01.alicdn.com/kf/He2793dfb12114dc2be57883d45f0c677A.png" />
+      </view>
+      <view class="txt">推广排名</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/demo04/demo04.wxml-->
+<text selectable="true"space="nbsp" decode="true">pages/de       mo04/demo04.&nbsp;wxml</text>
+<image src="http://chuantu.xyz/t6/732/1589009018x2890173797.png" mode="widthFix"  lazy-load/>
+<image src="https://img.alicdn.com/tps/i4/TB1.i6RE.H1gK0jSZSySuttlpXa.jpg_q90_.webp"/>

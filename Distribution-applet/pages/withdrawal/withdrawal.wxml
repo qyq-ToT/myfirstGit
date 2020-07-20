@@ -1,0 +1,41 @@
+<!--pages/withdrawal/withdrawal.wxml-->
+<!-- 头部 -->
+<view class="wdl_top"> 
+   <view class="wdl_title">
+      <view class="wdl_tilte_left">
+      <text class="wdl_title_nar">我的卡</text>
+      <text class="wdl_title_alls">共3张</text>
+      </view>
+      <view class="wdl_icon" bindtap="addcardmore">+</view>
+    </view>
+    <view class="wdl_bankcard">
+    <block wx:for="{{bankcardmassage}}" wx:key="key">
+            <view class="wdl_bankcard_top" style="top:{{index*140}}rpx;background:{{item.backcolor}}" bindtap="dellcard" data-id="{{index}}" data-username="{{item.username}}" data-bankcard="{{item.banknemb}}" data-bankname="{{item.bankname}}">
+               <image src="{{item.image}}"></image>
+               <radio-group>
+                 <label>
+                    <radio class="wdl_rid" catchtap="mnne" checked="{{mnlindex==index?open:''}}" data-mn="{{index}}"></radio>
+                 </label>
+               </radio-group>
+               <view class="wdl_bankcard_til">
+                  <text class="mnl">{{item.bankname}}</text>
+                  <text>{{item.bankcalss}}</text>
+               </view>
+               <view class="cardnumber">****1321</view>
+            </view>
+            </block>
+    </view>
+</view>
+<!-- 下半部提现 -->
+<view class="wdl_bottom">
+  <view class="wdl_bottom_tx">
+     <text>提现金额</text>
+     <text>0</text>
+  </view>
+  <view class="wd_bottom_lr">
+        <text class="wd_bottom_l">可提现余额7元</text>
+        <text class="wd_bottom_r">全部提现</text>
+  </view>
+    <text class="wd_ms">这是一段自定义关于提现的描述</text>
+    <button bindtap="bandmoney">确定提现</button>
+</view>

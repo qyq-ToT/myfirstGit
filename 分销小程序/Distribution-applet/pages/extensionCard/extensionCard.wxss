@@ -1,0 +1,97 @@
+.extensionCard {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.extensionCard .top_row {
+  width: 100%;
+  height: 150px;
+  background-color: #fd8259;
+  position: relative;
+}
+.extensionCard .top_row .usericon_row {
+  width: 70px;
+  height: 85px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.extensionCard .top_row .usericon_row .user-img {
+  width: 100%;
+  height: 70px;
+}
+.extensionCard .top_row .usericon_row .user-img image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.extensionCard .top_row .usericon_row .user-name {
+  margin-top: 7rpx;
+  width: 100%;
+  height: 15px;
+  text-align: center;
+  font-weight: 700;
+}
+.extensionCard .center_row {
+  margin-top: 65px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.extensionCard .center_row .QRcode {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.extensionCard .center_row .QRcode .img1 {
+  width: 160px;
+  height: 160px;
+}
+.extensionCard .center_row .QRcode .smIcon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.extensionCard .center_row .QRcode .smIcon .simg {
+  width: 100%;
+  height: 100%;
+}
+.extensionCard .center_row .pvBtn {
+  margin-top: 10px;
+  width: 120px;
+  height: 20px;
+}
+.extensionCard .center_row .pvBtn .buttom {
+  width: 100%;
+  height: 100%;
+  background-color: #fc4671;
+  border-radius: 8px;
+  font-size: 24rpx;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+}
+.extensionCard .bottom_row {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.extensionCard .bottom_row .explain {
+  margin-top: 12rpx;
+  font-size: 20rpx;
+  color: #bcb8b3;
+  height: 10px;
+  width: 200px;
+}

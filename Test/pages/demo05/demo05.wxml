@@ -1,0 +1,7 @@
+<!--pages/demo05/demo05.wxml-->
+<!-- 520x280 -->
+<swiper indicator-dots indicator-active-color="#2222DD" autoplay interval="2000" vertical circular display-multiple-items="1" duration="2000">
+  <swiper-item><image mode="widthFix" src="https://img.alicdn.com/tps/i4/TB1.i6RE.H1gK0jSZSySuttlpXa.jpg_q90_.webp"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB183NQapLM8KJjSZFBSutJHVXa.jpg"/></swiper-item>
+  <swiper-item><image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB1XotJXQfb_uJkSnhJSuvdDVXa.jpg"/></swiper-item>
+</swiper>
